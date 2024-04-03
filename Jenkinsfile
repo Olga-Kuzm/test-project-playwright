@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your project repository
-                git url: 'https://github.com/your_username/your_playwright_project.git'
+                git url: 'https://github.com/Olga-Kuzm/test-project-playwright.git'
             }
         }
 
